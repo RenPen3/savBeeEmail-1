@@ -1,11 +1,11 @@
 <mjml>
   <mj-head>
     <mj-attributes>
-      <mj-all font-family="Montserrat"></mj-all>
+      <mj-all></mj-all>
       <mj-social-element background-color="#002855" icon-size="30px" padding="10px">
       </mj-social-element>
     </mj-attributes>
-    <mj-font @import url('https://fonts.googleapis.com/css2?family=Alice&family=Montserrat:wght@100;200;300;400;500;600;700&display=swap'); />
+    <mj-font name="Alice Family" href='https://fonts.googleapis.com/css2?family=Alice&family=Montserrat:wght@100;200;300;400;500;600;700&display=swap' />
   </mj-head>
 
   <mj-body background-color="#A2CDFF">
