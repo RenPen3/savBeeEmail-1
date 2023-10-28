@@ -1,10 +1,7 @@
-<mjml>
+<mjml lang="en">
   <mj-head>
     <mj-attributes>
-      <mj-selector path=".btn">
-        <mj-html-attribute>
-      </mj-selector>
-      <mj-all> </mj-all>
+      <mj-all font-family="Typeka" />
       <mj-social-element background-color="#002855" icon-size="30px" padding="10px">
       </mj-social-element>
     </mj-attributes>
@@ -12,6 +9,7 @@
   </mj-head>
 
   <mj-body background-color="#A2CDFF">
+    <mj-include path="./style.css" type="css" />
     <!-- banner -->
     <mj-section background-color="#f4f4f4" padding="0">
       <mj-column padding="10px">
