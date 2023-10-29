@@ -1,18 +1,6 @@
 <mjml lang="en">
   <mj-head>
-
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-GJ0FFVTG9R"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag('js', new Date());
-
-      gtag('config', 'G-GJ0FFVTG9R');
-    </script>
+    <mj-include path="app.mjml" />
     <mj-attributes>
       <mj-class name="banner" color="#222222" />
       <mj-all font-family="Typeka" />
