@@ -1,5 +1,18 @@
 <mjml>
   <mj-head>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-GJ0FFVTG9R"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+
+      gtag('config', 'G-GJ0FFVTG9R');
+    </script>
     <mj-attributes>
       <mj-all font-family="Montserrat"></mj-all>
       <mj-social-element background-color="#002855" icon-size="30px" padding="10px">
