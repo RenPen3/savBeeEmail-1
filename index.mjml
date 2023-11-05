@@ -140,7 +140,7 @@
           <h4 style="margin:0;">Address</h4>
         </mj-text>
         <mj-text align="center" font-family="Poppins, Helvetica">
-          <p style="font-size: 16px; color: #002855;margin:0;line-height: 22px;margin:0;">390 N State Route 89A Sedona, AZ 8633 <br>You can reach us by phone at 1-800-955-5080. <br>We answer the phone 8:30AM to 5PM EST.<br> Monday through Friday. <br> </p>
+          <p style="font-size: 16px; color: #002855;margin:0;line-height: 22px;margin:0;">390 N State Route 89A <br>Sedona, AZ 8633 <br> You can reach us by phone at 1-800-955-5080. <br> We answer the phone 8:30AM to 5PM EST. <br>Monday through Friday. </p>
         </mj-text>
 
         <mj-text align="center" font-family="Poppins, Helvetica">
