@@ -1,6 +1,11 @@
 <mjml lang="en">
   <mj-head>
-    <mj-raw>
+  <mj-style inline="inline">
+  .overlay {
+    background-color: rgba(0, 0, 0, .9) !important;
+  }
+  </mj-style>
+    <!-- <mj-raw> -->
       <!-- Google tag (gtag.js) -->
       <script async src="https://www.googletagmanager.com/gtag/js?id=G-GJ0FFVTG9R"></script>
       <script>
@@ -13,7 +18,7 @@
 
         gtag('config', 'G-GJ0FFVTG9R');
       </script>
-    </mj-raw>
+    <!-- </mj-raw> -->
     <mj-attributes>
       <mj-class name="banner" color="#222222" />
       <mj-all font-family="Typeka" />
@@ -28,7 +33,7 @@
     <mj-section background-color="#f4f4f4" padding="0">
       <mj-column padding="10px">
         <mj-text mj-class="banner" padding="0" align="center">
-          <h2 style="font-size: 14px;padding:0;margin:0;font-family:'Poppins;">20% OFF SALE Unleash the Savings with Our Special Offer!</h2>
+          <h2 style="font-size: 16x;padding:0;margin:0;font-family:'Poppins;">20% OFF SALE Unleash the Savings with Our Special Offer!</h2>
         </mj-text>
       </mj-column>
     </mj-section>
@@ -36,7 +41,7 @@
 
     <!-- hero -->
     <mj-wrapper padding="0">
-      <mj-hero mode="fixed-height" background-url="https://i.ibb.co/fYRf1rT/savbee-02.jpg" height="470px" background-width="600px" background-height="9px" padding="160px 0 100px 0">
+      <mj-hero mode="fixed-height" background-url="https://savannahbee.com/cdn/shop/articles/savbee_honey_phyllo_cupcakes_01_JJ_v1_1.jpg?v=1689271497&width=2200" height="470px" background-width="600px" background-height="9px" padding="160px 0 100px 0">
 
         <mj-text>
           <h1 style="color: #FFFFFF;font-size: 40px;margin:0;font-family:Typeka;font-weight:500;" align="center">Savannah Bee Company</h1>
@@ -52,12 +57,12 @@
     <!-- savbee logo -->
     <mj-section background-color="#FFFFFF" padding="70px 0 20px 0">
       <mj-column>
-        <mj-image padding="0" width="130px" src="https://i.ibb.co/3snT7MD/2406055-19341.jpg" alt="Savannah Bee Company Logo" href="https://savannahbee.com/">
+        <mj-image padding="0" width="130px" src="https://savannahbee.com/cdn/shop/files/bee.png?v=1657870457&width=250" alt="Savannah Bee Company Logo" href="https://savannahbee.com/">
       </mj-column>
     </mj-section>
     <!-- /savbee logo -->
 
-    <!-- product titl -->
+    <!-- product title -->
     <mj-section background-color="#FFFFFF" padding="20px 0 0 0">
       <mj-column>
         <mj-text font-size="20px" font-family="Poppins, Helvetica" align="center" color="#002855">Taste the Excellence!</mj-text>
@@ -78,13 +83,13 @@
     <!-- honey products -->
     <mj-section background-color="#FFFFFF" padding="0 20px 0 20px">
       <mj-column padding="0 20px">
-        <mj-image href="https://savannahbee.com/products/whipped-honey-with-lemon-1" width="100px" src="https://i.ibb.co/LY780ZV/honey-image-lemon.webp" alt="Whipped Honey with Lemon image" />
+        <mj-image href="https://savannahbee.com/products/whipped-honey-with-lemon-1" width="100px" src="https://savannahbee.com/cdn/shop/products/WhippedLem12_2048x3072_81f80ecf-1fb0-42a0-bc4b-0e851528bf19.jpg?v=1659387747&width=1346" alt="Whipped Honey with Lemon image" />
         <mj-text line-height="20px" font-weight="600" font-size="20px" align="center" color="#002855">Whipped Honey with Lemon</mj-text>
         <mj-text line-height="24px" padding="0" font-size="18px" font-family="Poppins, Helvetica" align="center" color="#002855">Experience flavor fusion: Sweet-tart organic lemon oil and crystallized Whipped Honey from Montana transform treats, elevating pound cake and herbal tea into pure delight </mj-text>
       </mj-column>
 
       <mj-column padding="0 20px">
-        <mj-image href="https://savannahbee.com/products/whipped-honey-original" width="100px" src="https://i.ibb.co/KWws4V1/honey-image-3-ori.webp" alt="Whipped Honey Original image" />
+        <mj-image href="https://savannahbee.com/products/whipped-honey-original" width="100px" src="https://savannahbee.com/cdn/shop/products/WhippedOG12_2048x3072_a06e8855-5253-4122-8c97-46562f93df3a.jpg?v=1659386693&width=1346" alt="Whipped Honey Original image" />
         <mj-text line-height="20px" font-weight="600" font-size="20px" align="center" color="#002855">Whipped Honey Original</mj-text>
         <mj-text line-height="24px" padding="0" font-size="18px" font-family="Poppins, Helvetica" align="center" color="#002855">Buzz-speed spinning crafts our creamy, crystallized Whipped Honey. Use as easy frosting for baked goods, or stir into coffee/tea for a decadent breakfast treat</mj-text>
       </mj-column>
@@ -92,12 +97,12 @@
 
     <mj-section background-color="#FFFFFF" padding="0 20px 50px 20px">
       <mj-column padding="0 20px">
-        <mj-image href="https://savannahbee.com/products/whipped-honey-with-cinnamon" width="100px" src="https://i.ibb.co/4wqJ7kt/honey-image-2-cinn.webp" alt="Whipped Honey with Cinnamon image" />
+        <mj-image href="https://savannahbee.com/products/whipped-honey-with-cinnamon" width="100px" src="https://savannahbee.com/cdn/shop/products/whippedhoneywithchocolate_101932_A_f3b29e35-4f00-4702-9776-94b31de55213.jpg?v=1669238362&width=1346" alt="Whipped Honey with Cinnamon image" />
         <mj-text line-height="20px" font-weight="600" font-size="20px" align="center" color="#002855">Whipped Honey with Cinnamon</mj-text>
         <mj-text line-height="24px" padding="0" font-size="18px" font-family="Poppins, Helvetica" align="center" color="#002855">Unforgettable spice delight! Ceylon cinnamon meets Montana's Whipped Honey for a smooth, aromatic ambrosia, perfect in drinks or as a heavenly baked goods topping</mj-text>
       </mj-column>
       <mj-column padding="0 20px">
-        <mj-image href="https://savannahbee.com/products/whipped-honey-chocolate" width="100px" src="https://i.ibb.co/mbw2K1q/honey-image-4-choco.webp" alt="Whipped Honey with Chocolate image" />
+       <mj-image href="https://savannahbee.com/products/whipped-honey-with-cinnamon" width="100px" src="https://savannahbee.com/cdn/shop/products/WhipChoc12_2048x3072_971cb828-4d7a-44da-9be6-ac9bcc563705.jpg?v=1659386859&width=1346" alt="Whipped Honey with Cinnamon image" />
         <mj-text line-height="20px" font-weight="600" font-size="20px" align="center" color="#002855">Whipped Honey with Chocolate</mj-text>
         <mj-text line-height="24px" padding="0" font-size="18px" font-family="Poppins, Helvetica" align="center" color="#002855">Creamy, dreamy, chocolatey delight: Fair-trade cocoa and Montana wildflower honey whipped to a crystallized state. Drizzle over s'mores or stir into milk/coffee for rich flavor</mj-text>
       </mj-column>
@@ -113,23 +118,25 @@
     <!-- /CTA 2 -->
 
     <!-- company boilerplate -->
-    <mj-hero background-url="https://i.ibb.co/kSL1bJh/honey3-Opt-drk.jpg" background-color="#002855" padding="20px">
-      <mj-text line-height="1.5" font-size="20px" font-family="Poppins, Helvetica" font-weight="600" align="center" color="#FFFFFF">Savannah Bee Co. presents a delicious variety of the world’s “golden elixir” for every taste. Lightly sweet or lusciously robust, with honeycomb or without, by the spoonful or spread with a knife. We even make it spicy hot! What type of honey aficionado will you bee-come?</mj-text>
-    </mj-hero>
+    <mj-section css-class="overlay" background-url="https://savannahbee.com/cdn/shop/articles/bee-on-honeycomb-savannah-bee-company_1.jpg?v=1689360136" background-size="cover" background-repeat="no-repeat" background-position="left bottom" background-color="#002855" padding="20px" >
+    <mj-column width="100%">
+      <mj-text line-height="1.5" font-size="20px" font-family="Poppins, Helvetica" font-weight="700" align="center" color="#FFFFFF">Savannah Bee Co. presents a delicious variety of the world’s “golden elixir” for every taste. Lightly sweet or lusciously robust, with honeycomb or without, by the spoonful or spread with a knife. We even make it spicy hot! What type of honey aficionado will you bee-come?</mj-text>
+      </mj-column>
+    </mj-section>
     <!-- /company boilerplate -->
 
     <!-- footr -->
     <mj-section background-color="#FFFFFF" padding="70px 20px 40px 20px">
       <mj-column>
-        <mj-image padding="0" width="100px" src="https://i.ibb.co/3snT7MD/2406055-19341.jpg" alt="Savannah Bee Company Logo" href="https://savannahbee.com/">
+        <mj-image padding="0" width="100px" src="https://savannahbee.com/cdn/shop/files/bee.png?v=1657870457&width=250" alt="Savannah Bee Company Logo" href="https://savannahbee.com/">
       </mj-column>
     </mj-section>
 
     <mj-section background-color="#FFFFFF" padding="10px 20px 20px 20px">
       <mj-column>
 
-        <mj-text line-height="0.5" align="center">
-          <h4 style="margin:0;font-weight:500;color:#002855;font-size:20px;">Contact</h4>
+        <mj-text line-height="0.5" align="center" font-size="20px" font-weight="500" color="#002855">
+          <h4 style="margin:0;">Contact</h4>
         </mj-text>
 
         <mj-text padding-bottom="24px" align="center" font-family="Poppins, Helvetica">
